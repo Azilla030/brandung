@@ -1,0 +1,29 @@
+
+'brandung.Site:Document.HomePage':
+  superTypes:
+    'brandung.Site:Document.AbstractPage': true
+    'brandung.Site:Constraint.Document.Restricted': true
+    'brandung.Site:Mixin.InspectorGeneral': true
+  ui:
+    label: i18n
+    icon: globe
+  properties:
+    footerInfo:
+      type: string
+      ui:
+        inlineEditable: true
+        inline:
+          editorOptions:
+            formatting:
+              a: true
+            placeholder: i18n
+    footerItems:
+      type: references
+      ui:
+        label: i18n
+        reloadIfChanged: true
+        inspector:
+          group: general
+          editorOptions:
+            nodeTypes:
+              - 'Neos.Neos:Document'

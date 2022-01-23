@@ -1,0 +1,13 @@
+'brandung.Site:Document.AbstractPage':
+  abstract: true
+  superTypes:
+    'Neos.Neos:Document': true
+  childNodes:
+    main:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          'brandung.Site:Constraint.Content.Restricted': false
+  constraints:
+    nodeTypes:
+      'brandung.Site:Constraint.Document.Restricted': false

@@ -39,6 +39,7 @@ prototype(brandung.Site:Document.AbstractPage) < prototype(Neos.Neos:Page) {
 
             <!-- link your own css files here -->
             <link rel="stylesheet" href={StaticResource.uri('brandung.Site', 'Public/Frontend/index.css')} />
+            <link rel="stylesheet" href={StaticResource.uri('brandung.Site', 'Public/Frontend/bulma.css')}/>
         `
     }
 

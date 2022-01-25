@@ -1,0 +1,67 @@
+
+'brandung.Site:Content.brandungText':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: 'TextBrandung'
+    icon: icon-align-justify
+    position: 200
+    inspector:
+      groups:
+        settings:
+          label: 'Settings'
+  properties:
+    title:
+      type: string
+      defaultValue: ''
+      ui:
+        inlineEditable: true
+        inline:
+          editorOptions:
+            'source':
+              type: 'string'
+              ui:
+                label: 'Toggle the editor'
+                inspector:
+                  editor: 'Neos.Neos/Inspector/Editors/RichTextEditor'
+                  editorOptions:
+                    placeholder: '<p>placeholder</p>'
+                    autoparagraph: true
+                    linking:
+                      anchor: true
+                      title: true
+                      relNofollow: true
+                      targetBlank: true
+                    formatting:
+                      strong: true
+                      em: true
+                      u: true
+                      sub: true
+                      sup: true
+                      del: true
+                      p: true
+                      h1: true
+                      h2: true
+                      h3: true
+                      h4: true
+                      h5: true
+                      h6: true
+                      pre: true
+                      underline: true
+                      strikethrough: true
+                      removeFormat: true
+                      left: true
+                      right: true
+                      center: true
+                      justify: true
+                      table: true
+                      ol: true
+                      ul: true
+                      a: true
+    text:
+      type: string
+      ui:
+        label: Hans
+        inspector:
+          group: settings
+          editor: Neos.Neos/Inspector/Editors/TextFieldEditor

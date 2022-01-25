@@ -1,0 +1,9 @@
+prototype(brandung.Site:Content.brandungText) < prototype(Neos.Neos:ContentComponent) {
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
+
+    renderer = afx`
+        <div class="textBrandung">{props.text}</div>
+    `
+}

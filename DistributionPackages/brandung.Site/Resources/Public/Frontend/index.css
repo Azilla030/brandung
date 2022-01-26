@@ -77,6 +77,10 @@ body {
     height: auto;
 }
 
+.neos-contentcollection {
+    padding: 50px 0px;
+}
+
 
 /**
  * Footer Layout

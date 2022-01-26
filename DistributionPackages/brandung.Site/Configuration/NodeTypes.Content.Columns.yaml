@@ -1,0 +1,23 @@
+'brandung.Site:Mixin.Columns':
+  abstract: true
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    icon: columns
+    group: 'structure'
+    inspector:
+      groups:
+        layout:
+          label: 'Layout'
+          icon: arrows-h
+  constraints:
+    nodeTypes:
+      'Neos.Neos:Content': false
+      'brandung.Site:Mixin.Column': true
+
+'brandung.Site:Content.Columns':
+  superTypes:
+    'brandung.Site:Mixin.Columns': true
+    'Neos.Neos:ContentCollection': true
+  ui:
+    label: 'Columns'

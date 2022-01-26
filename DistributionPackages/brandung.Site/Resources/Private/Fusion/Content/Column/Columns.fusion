@@ -1,0 +1,7 @@
+prototype(brandung.Site:Content.Columns) < prototype(Neos.Neos:ContentComponent) {
+    renderer = afx`
+        <div class="columns">
+            <Neos.Neos:ContentCollectionRenderer/>
+        </div>
+    `
+}

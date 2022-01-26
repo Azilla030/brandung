@@ -1,0 +1,10 @@
+'brandung.Site:Content.TwoColumns':
+  superTypes:
+    'brandung.Site:Mixin.Columns': true
+  ui:
+    label: 'Two columns'
+  childNodes:
+    column0:
+      nodeType: 'brandung.Site:Content.Column'
+    column1:
+      nodeType: 'brandung.Site:Content.Column'

@@ -1,0 +1,3 @@
+prototype(brandung.Site:Content.TwoColumns) < prototype(Neos.Neos:ContentCollection) {
+    @context.node = ${node}
+}
